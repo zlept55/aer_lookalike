@@ -30,7 +30,53 @@
             </div>
             <!-- Navigation Links -->
             <ul class="nav-links">
-                <li><a href="#">Book</a></li>
+                <!-- Book Dropdown -->
+                <li class="menu-item">
+                    <a href="#">Book</a>
+                    <div class="dropdown">
+                        <!-- First Column -->
+                        <div class="dropdown-column">
+                            <h4>Book</h4>
+                            <a class="list" href="#">Flights</a>
+                            <a class="list" href="#">Groups</a>
+                            <a class="list" href="#">Hotels</a>
+                            <a class="list" href="#">Holidays</a>
+                            <a class="list" href="#">Car Hire</a>
+                            <a class="list" href="#">Travel Money</a>
+                            <a class="list" href="#">Gift Vouchers</a>
+                        </div>
+                        <!-- Second Column -->
+                        <div class="dropdown-column">
+                            <h4>Plan</h4>
+                            <a class="list" href="#">Our Fares</a>
+                            <a class="list" href="#">Price Lock</a>
+                            <a class="list" href="#">Fare Deposit</a>
+                            <a class="list" href="#">Family First</a>
+                            <a class="list" href="#">Airline Partners</a>
+                            <a class="list" href="#">Travel Extras</a>
+                            <a class="list" href="#">Upgrade Yourself</a>
+                        </div>
+                        <!-- Third Column -->
+                        <div class="dropdown-column">
+                            <h4>Explore</h4>
+                            <a class="list" href="#">Destinations</a>
+                            <a class="list" href="#">Route Map</a>
+                            <a class="list" href="#">Timetables</a>
+                            <a class="list" href="#">Aer Lingus Hub</a>
+                        </div>
+                        <!-- Fourth Column -->
+                        <div class="dropdown-column">
+                            <h4>Flight Deals</h4>
+                            <a class="list" href="#">Flights to United Kingdom</a>
+                            <a class="list" href="#">Flights to USA</a>
+                            <a class="list" href="#">Flights to Canada</a>
+                            <a class="list" href="#">Flights to Europe</a>
+                            <a class="list" href="#">Flights to Germany</a>
+                            <a class="list" href="#">Flights to France</a>
+                            <a class="list" href="#">Flights to Spain</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a href="#">Prepare</a></li>
                 <li><a href="#">Experience</a></li>
                 <li><a href="#">AerClub</a></li>
@@ -84,45 +130,7 @@
                         </div>
                     </form>
                 </div>
-                 <!-- Manage Trip -->
-        <div id="manage-trip" class="tab-panel">
-            <h3>Manage your upcoming trip</h3>
-            <form>
-                <label for="booking-reference"></label>
-                <input type="text" id="booking-reference" placeholder="Enter your booking reference">
-
-                <label for="family-name"></label>
-                <input type="text" id="family-name" placeholder="Enter your family name">
-                
-                <button type="submit">Manage Trip</button>
-            </form>
-        </div>
-
-        <!-- Check In -->
-        <div id="check-in" class="tab-panel">
-            <h3>Check in for your flight</h3>
-            <p>Enter your booking reference to check in for your flight.</p>
-            <form>
-                <label for="check-in-reference"></label>
-                <input type="text" id="check-in-reference" placeholder="Enter your booking reference">
-                <button type="submit">Check In</button>
-            </form>
-        </div>
-
-        <!-- Flight Status -->
-        <div id="flight-status" class="tab-panel">
-            <h3>Track your flight</h3>
-            <p>Enter your flight details to check the status.</p>
-            <form>
-                <label for="flight-number"></label>
-                <input type="text" id="flight-number" placeholder="Enter your flight number">
-                
-                <label for="departure-date"></label>
-                <input type="date" id="departure-date" placeholder="Enter departure date">
-                
-                <button type="submit">Track Flight</button>
-            </form>
-        </div>
+            </div>
         </section>
     </main>    
 
@@ -130,7 +138,7 @@
     <footer>
         <p>&copy; Copyright © Aer Lingus Group DAC and Aer Lingus Ltd. All rights reserved. Fares for travel within Europe are one-way including taxes and charges. Fares to USA are each-way including taxes and charges.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 </html>
+
